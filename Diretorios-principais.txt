@@ -1,0 +1,17 @@
+### Principais diretórios para ser estudados
+
+/boot - O diretório /boot contém arquivos necessários para inicializar o sistema, como os arquivos do carregador de inicialização GRUB e o kernel (ou kernels) do Linux.
+
+/var - O diretório /var é onde o sistema armazena seus arquivos de spool, como o spool de impressão, filas de entrada e saída de email e arquivos de log do sistema, entre outros.
+Por conta disso, esses arquivos podem aumentar e diminuir de tamanho drasticamente e sem aviso.
+Ele também contém arquivos cujo tamanho e conteúdo podem mudar enquanto o sistema está em execução, como as entradas nos diretórios a seguir:
+    -   Arquivos de log do sistema: /var/log
+    -   Pacotes e arquivos de banco de dados: /var/lib
+    -   Filas de impressão: /var/spool
+    -   Arquivos temporários: /var/tmp
+
+/home - Diretório dos usuários comuns (Não os Roots), onde cada usuário terá seu espaço delimitado
+
+/usr - O diretório /usr contém aplicações e arquivos utilizados pelos usuários comuns do sistema, ao contrário das aplicações e arquivos que são usados pelo sistema em si. Por exemplo, aplicações não-essenciais estão localizadas dentro do diretório /usr/bin em vez do diretório /bin e binários de administração do sistema ficam localizados no diretório /usr/sbin em vez do diretório /sbin.
+Bibliotecas estão locadas dentro do diretório /usr/lib.
+O diretório /usr também contém outros diretórios – por exemplo, arquivos que não dependem de arquitetura como gráficos, que se localizam no diretório /usr/share.
